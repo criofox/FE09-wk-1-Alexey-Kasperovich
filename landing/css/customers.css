@@ -1,0 +1,104 @@
+.customers {
+    width: 100%;
+    padding: 80px 0 119px;
+}
+
+.customers-title {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: #212121;
+}
+
+.customers-title::after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: 34px auto 34px;
+}
+
+.customers-row {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.customers-row__item {
+    width: 298px;
+}
+
+.customers-row__item-content{
+    position: relative;
+    margin: 0 -15px;
+}
+
+.customers-row__item-content-text {
+    background-color: #E2E2E2;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    padding: 9px 22px 6px 23px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 0 15px;
+}
+
+
+
+.customers-row__item-content::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-top: 17px solid #E2E2E2;
+    position: absolute;
+    top: 100%;
+    left: 39px;
+}
+
+
+.customers-row__item-person {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.customers-row___item-person-photo-inner {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.customers-row___item-person-about {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.jeremy {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.manager {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    margin-left: 38px;
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+

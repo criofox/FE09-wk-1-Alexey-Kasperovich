@@ -1,0 +1,70 @@
+@import url(awesome.css);
+@import url(pricing.css);
+@import url(customers.css);
+@import url(axure.css);
+@import url(header.css);
+@import url(social.css);
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    max-width: 1170px;
+    padding: 0 15px;
+    position: relative;
+    z-index: 10;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase
+}
+
+.title-content {
+    color: #86878B;
+    text-align: center;
+}
+
+.content {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.facebook:hover {
+    color: rgb(24, 119, 242);
+}
+
+.twitter:hover {
+    color: rgb(29, 161, 242);
+}
+
+.google:hover {
+    color: rgb(233, 66, 53);
+}
+
+.pinterest:hover {
+    color: rgb(230, 0, 35);
+}
+
+.instagram:hover {
+    color: rgb(169, 58, 153);
+}
+
+.vk:hover {
+    color: rgb(39, 135, 245);
+}
+
+.tiktok:hover {
+    color: rgb(36, 236, 231);
+}
