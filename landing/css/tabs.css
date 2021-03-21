@@ -1,0 +1,104 @@
+.tabs {
+    width: 100%;
+    padding-bottom: 105px;
+}
+
+.tabs__inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.tabs__inner-choice {
+    padding-top: 125px;
+    width: 112px;
+    margin: 0 15px;
+}
+
+.tabs__inner-choice-item {
+    width: 100%;
+    background-color: #333333;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tabs__inner-choice-item:first-child {
+    margin-top: 0;
+    background-color: rgb(236,121,121);
+}
+
+.tabs__inner-choice-item:hover {
+    background-color: rgb(236,121,121);
+}
+
+.tabs__inner-choice-item-content {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.tabs__inner-description {
+    width: 572px;
+    margin: 0 15px;
+}
+
+.tabs__inner-description-title {
+    padding-top: 126px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: start;
+}
+
+.tabs__inner-description-content {
+    display: block;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #86878B;
+}
+
+.tabs-upper-content {
+    margin-top: 58px;
+}
+
+.tabs-lower-content {
+    padding-top: 33px;
+}
+
+.tabs__inner-description-download {
+    margin-top: 89px;
+    width: 135px;
+    background-color: rgb(236,121,121);
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.tabs__inner-description-download-link {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 11px 26px;
+    color: #FFFFFF;
+}
+
+.tabs__inner-description-download:hover {
+    background-color: rgb(236,85,85);
+}
+
+.tabs__inner-logo {
+    padding-top: 100px;
+    margin: 0 15px;
+}
+
+.tabs__inner-logo-pic {
+    width: 320px;
+    height: 253px;
+}
+
